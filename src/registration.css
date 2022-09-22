@@ -1,0 +1,80 @@
+
+.back{
+display:flex ;
+justify-content: center;
+align-items: center;
+
+} 
+.outer{
+
+    position: relative;
+    border:1px solid black ;
+    border-radius:10px;
+    width: 850px;
+    height: 550px;
+    background-color: rgb(159, 58, 164);
+}
+
+
+ .formdata{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    border:1px solid black ;
+    border-radius:10px;
+    width:700px;
+    height:350px;
+    background-color: white;
+}
+
+
+label{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: inline-block;
+}
+
+input{
+    border-radius: 5px;
+    width: 180px;
+    height: 35px;
+}
+
+button{
+    width: 65px;
+    height:30px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+}
+
+.position{
+    display: inline-block;
+    width: 80%;
+}
+
+select {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -webkit-padding-end: 20px;
+    -moz-padding-end: 20px;
+    -webkit-padding-start: 2px;
+    -moz-padding-start: 2px;
+    background-color: #e5d7d7; /* Fallback color if gradients are not supported */
+ 
+    background-position: center right;
+    background-repeat: no-repeat;
+    border: 1px solid #AAA;
+    border-radius: 2px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+    color: #555;
+    font-size: inherit;
+    margin: 0;
+    overflow: hidden;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}

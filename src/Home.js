@@ -38,8 +38,8 @@ let id=1;
        
          <tr key={id++} >
            <th>Id</th>
-           <th>First_name</th>
-           <th>Last_name</th>
+           <th>First</th>
+           <th>Last</th>
            <th>Email</th>
            <th>Delete</th>
            <th>Update</th>

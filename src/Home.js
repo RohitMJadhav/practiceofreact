@@ -31,21 +31,9 @@ const delUser=async (index)=>{
 const heading=["Sr No.", "Title","Body"]
 let id=1;
    return(<>
-   <h1>Table</h1>
-   <table className="table table-dark table-striped" style={{width:800}}>
-      <thead >
-         
-       
-         <tr key={id++} >
-           <th>Id</th>
-           <th>First</th>
-           <th>Last</th>
-           <th>Email</th>
-           <th>Delete</th>
-           <th>Update</th>
-         </tr> 
-          
-      </thead>
+<h2 style={{backgroundColor:"yellowgreen",display:"flex",justifyContent:"center",alignItems:"center" }}>Table data</h2>
+   <table className="table table-dark table-striped" style={{display:"flex",justifyContent:"center",alignItems:"center"}}>
+    
     <tbody>
    {data.map((val,i)=>
      <tr key={i}>
